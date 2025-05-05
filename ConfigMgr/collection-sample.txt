@@ -1,0 +1,5 @@
+select SMS_R_System.ResourceID
+from SMS_R_System
+inner join SMS_G_System_PNP_DEVICE_DRIVER as PNP
+    on PNP.ResourceID = SMS_R_System.ResourceID
+where PNP.ClassGuid = '{F01A9D53-3FF6-48D2-9F97-C8A7004BE10C}'

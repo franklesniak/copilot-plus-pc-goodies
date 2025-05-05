@@ -1,4 +1,5 @@
-$arrNPUs = @(Get-PnpDevice -Class "ComputeAccelerator" -Status OK -ErrorAction SilentlyContinue | Select-Object Status, Class, FriendlyName, InstanceID)
+$arrNPUs = @(Get-PnpDevice -Class "ComputeAccelerator" -Status OK -ErrorAction SilentlyContinue |
+    Select-Object Status, Class, FriendlyName, InstanceID)
 if ($arrNPUs.Count -eq 0) {
     # No NPU found - don't trigger the proactive remediation
     return 0

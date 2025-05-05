@@ -1,1 +1,3 @@
-# mms-2025-copilot-plus-pcs
+# Copilot+ PC Goodies
+
+Welcome! This repository contains various "goodies" for sysadmins related to Copilot+ PCs.

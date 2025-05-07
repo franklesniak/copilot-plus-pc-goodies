@@ -7,9 +7,14 @@ select SMS_R_System.Name, SMS_G_System_PNP_DEVICE_DRIVER.ClassGuid, SMS_G_System
 where SMS_G_System_PNP_DEVICE_DRIVER.ClassGuid = "{f01a9d53-3ff6-48d2-9f97-c8a7004be10c}"
 ```
 
-Here is what it looks like in the Configuration Manager console:
+## Here is what it looks like in the Configuration Manager console:
 
+### Query Language
 ![NPU WQL Query](/ConfigMgr/.Images/ConfigMgr_WQL_QueryLanguage.png)
 
-Running the report will generate a list of devices that have the NPU class GUID.
+### Query Design
+![NPU WQL Query Design](/ConfigMgr/.Images/ConfigMgr_WQL_QueryDesign.png)
+
+### Results of running the query
+Running the query will generate a list of devices that have the NPU class GUID.
 ![NPU Query Results](/ConfigMgr/.Images/ConfigMgr_WQL_Results.png)

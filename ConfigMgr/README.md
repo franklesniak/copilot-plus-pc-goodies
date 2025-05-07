@@ -8,7 +8,8 @@ where SMS_G_System_PNP_DEVICE_DRIVER.ClassGuid = "{f01a9d53-3ff6-48d2-9f97-c8a70
 ```
 
 Here is what it looks like in the Configuration Manager console:
-![NPU WQL Query](/.Images/ConfigMgr_WQL_QueryLanguage.png)
+
+![NPU WQL Query](/ConfigMgr/.Images/ConfigMgr_WQL_QueryLanguage.png)
 
 Running the report will generate a list of devices that have the NPU class GUID.
-![NPU Query Results](/.Images/ConfigMgr_WQL_Results.png)
+![NPU Query Results](/ConfigMgr/.Images/ConfigMgr_WQL_Results.png)
